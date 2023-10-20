@@ -1,0 +1,56 @@
+@font-face{
+    font-family: teste;
+    src: url(Font/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: teste;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    transition: color 0.3s; /* Efeito de transição para a cor do texto */
+}
+
+.navbar a:hover {
+    color: #ff9900; /* Cor do texto ao passar o mouse */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    transition: transform 0.2s; /* Efeito de transição para escala (hover) */
+}
+
+.content:hover {
+    transform: scale(1.02); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+p{
+    font-family: teste;
+}
